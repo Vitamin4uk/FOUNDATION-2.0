@@ -1,0 +1,12 @@
+body {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+}

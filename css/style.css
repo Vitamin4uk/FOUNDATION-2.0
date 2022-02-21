@@ -1,6 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url('../img/bg.jpg');
   background-size: cover;
+
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -9,4 +15,7 @@ h1 {
   font-size: 60px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
+}
+li {
+  color: #fff;
 }

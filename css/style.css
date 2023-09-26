@@ -5,6 +5,12 @@
   font-family: sans-serif;
 }
 
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --prime: #f4f835;
+}
+
 html {
   box-sizing: border-box;
   font-size: 12px;
@@ -31,11 +37,9 @@ ol {
 
 body {
   height: 100%;
-  background-image: url('../img/bg.jpg');
-  background-size: cover;
-
-  background-repeat: no-repeat;
+  background: var(--black); 
 }
+
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -46,10 +50,10 @@ main {
 }
 
 h1 {
-  color: #fff;
+  color: var(--prime);
   text-align: center;
   font-size: 60px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Advent Pro', sans-serif;
   margin-top: 20px;
 }
 .container {
@@ -73,19 +77,26 @@ h1 {
 .nav li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(221, 17, 187);
+  font-family: 'Advent Pro', sans-serif;
+  color: var(--prime);
   font-weight: 700;
   padding: 15px;
 }
 
 .nav li a:hover {
-  background-color: rgb(122, 9, 113);
-  color: #fff;
+  background-color: var(--prime);
+  color: var(--black);
   border-radius: 5px;
 }
-.copiright {
-  color: rgb(221, 17, 187);
 
-  padding: 15px;
+.copiright {
+  color: var(--prime);
+  font-family: 'Advent Pro', sans-serif;
+  padding-bottom: 5px;
   text-align: center;
+}
+
+.copiright a {
+  text-decoration: none;
+  color: var(--prime);
 }

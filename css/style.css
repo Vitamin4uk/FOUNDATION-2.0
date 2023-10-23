@@ -45,6 +45,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 main {
   flex: 1 0 auto;
 }
@@ -56,24 +57,29 @@ h1 {
   font-family: 'Advent Pro', sans-serif;
   margin-top: 20px;
 }
+
 .container {
   width: 1170px;
   margin: 0 auto;
 }
-.menu {
-  /* border: 1px solid red; */
-}
+
+/* .menu {
+  border: 1px solid red;
+} */
+
 .menu__inner {
   margin: 25px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .nav {
   display: flex;
   padding: 0;
   margin: 0;
 }
+
 .nav li a {
   text-decoration: none;
   text-transform: uppercase;

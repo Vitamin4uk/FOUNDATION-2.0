@@ -61,6 +61,7 @@ h1 {
 h2 {
   color: var(--prime);
   text-align: center;
+  font-family: 'Advent Pro', sans-serif;
 }
 
 .container {
